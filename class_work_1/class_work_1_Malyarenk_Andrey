@@ -1,0 +1,11 @@
+arr = ['a', 'n', 'd', 'r', 'e', 'y'] # Массив с буквами имени
+print('Четвёртая буква имени: {}'.format(arr[3]))
+
+arr2 = ['a', 'n', 'd', 'r', 'e', 'y', 16]
+myclass = '11I-2' 
+print(arr2[1:-1:1]) # Вывод начального массива без первого и последнего элемента
+arr.append(myclass)
+surname = 'Malyarenko'
+for i in range(len(surname)):
+  arr2.append(surname[i]) # Добавление каждой буквы фамилии по отдельности в массив
+print(arr2)
